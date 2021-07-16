@@ -1,7 +1,9 @@
- <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');</style>
-:root {
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+ :root {
     --primary-color: #007af3;
 }
+
 body{
     background: #ffffff;
     margin:0;
@@ -14,30 +16,31 @@ body{
 
    .logo{
        text-decoration: none;
-       font-weight:bold;
-       color:black
-       font-size: .1.2em;
+       font-weight: bold;
+       color: black;
+       font-size: 1.2em;
 
        span{
-           color: var(--primary-color)
+           color: var(--primary-color);
        }
    } 
-}
 
-nav {
+    nav {
     display:none;
-}
+    }
 
-.container {
-    display:flex;
-    place-content:space-between;
-}
-.mobile-menu{
+    .container {
+       display:flex;
+       place-content:space-between;
+    }
+
+    .mobile-menu{
     cursor: pointer;
-}
+    }
+}    
 
 a {
-    color:black;
+    color: #444444;
 }
 
 ul {
@@ -68,20 +71,20 @@ section {
           font-size: 2.5em;
           line-height: 1.3em;
           margin-top: .2em;
-      }
-
-
-    .primary-cta{
-        background: var(--primary-color);
-        color:white;
-        text-decoration: none;
-        padding: .6em 1.3em;
-        font-size:1.4em;
-        border-radius: 5em;
-        display: inline-block;
     }
 
-    .watch-video-cta{
+    .primary-cta {
+        background : var(--primary-color);
+        color : white;
+        text-decoration : none;
+        padding: .6em 1.3em;
+        font-size : 1.4em;
+        border-radius : 5em;
+        font-weight: bold;
+        display : inline-block;
+    }
+
+    .watch-video-cta {
         display: block;
         margin-top: 1em;
 
